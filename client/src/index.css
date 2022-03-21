@@ -1,0 +1,22 @@
+input#file-input {
+    display: none;
+}
+
+input#file-input + label {
+    display: grid;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(129, 133, 137);
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 2rem;
+    width: 8rem;
+    align-items: center;
+    justify-items: center;
+    user-select: none;
+}
+
+input#file-input + label:hover {
+    opacity: 0.7;
+}
